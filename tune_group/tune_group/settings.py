@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(hwr0$*=h=l+u)uoit*b!g(x&jthrm)#fcxp3(w=zms403%y!c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-dom123x456-portfolio5-u3gorm4k14i.ws-eu101.gitpod.io']
+ALLOWED_HOSTS = ['8000-dom123x456-portfolio5-n2qp6j1jqxh.ws-eu101.gitpod.io']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api.apps.ApiConfig',
     'rest_framework',
+    'frontend.apps.FrontendConfig',
 ]
 
 MIDDLEWARE = [
